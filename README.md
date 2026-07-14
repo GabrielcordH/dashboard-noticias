@@ -2,17 +2,6 @@
 
 Protótipo local rodável. Fonte de dados: CSV (3.165 notícias) + 2 GeoJSON.
 
-## Como rodar
-
-1. Tenha Python 3.10+ instalado.
-2. No terminal, dentro desta pasta:
-
-```bash
-pip install streamlit plotly pandas
-streamlit run app.py
-```
-
-3. Abre sozinho no navegador (geralmente http://localhost:8501).
 
 ## Arquivos
 
@@ -38,11 +27,6 @@ streamlit run app.py
 - **Tabela de notícias** com busca por termo no resumo (= subtítulo),
   mostrando data, veículo, título, resumo e link.
 
-## Próximo passo (produção)
-
-Trocar a função `carregar()` em `app.py` para ler do Google Sheets em vez do
-CSV local. O restante do pipeline não muda. Depois, deploy (Streamlit Cloud
-ou container) — conforme conversamos.
 
 ## Notas de dados
 
